@@ -1,0 +1,44 @@
+
+## `.gitignore`
+
+```gitignore
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+
+# Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Editor and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary and backup files
+*.tmp
+*.bak
+*.log
+~$*
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Large generated artefacts (review before committing)
+# Uncomment only if these files should not be versioned:
+# *.pkl
+# *.joblib

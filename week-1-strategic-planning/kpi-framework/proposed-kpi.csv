@@ -1,0 +1,7 @@
+kpi_id,kpi_name,description,required_fields,availability_status
+KPI-01,Approved Project Cost,Project cost approved by the relevant authority,Approved_Cost,To verify in Week 2
+KPI-02,Reported Expenditure,Expenditure reported for the project,Financial_Expenditure,To verify in Week 2
+KPI-03,Expenditure Ratio,Reported expenditure divided by approved cost,Approved_Cost;Financial_Expenditure,To verify in Week 2
+KPI-04,Project Count,Number of distinct projects,Project_ID or verified project key,To verify in Week 2
+KPI-05,Projects by Status,Distribution of projects by reported status,Present_Status,To verify in Week 2
+KPI-06,Schedule Difference,Difference between scheduled and revised/actual completion dates,Relevant date fields,To verify in Week 2

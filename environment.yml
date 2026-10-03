@@ -1,0 +1,16 @@
+name: buildsight-bi
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.11
+  - pandas
+  - numpy
+  - openpyxl
+  - python-dateutil
+  - matplotlib
+  - plotly
+  - scikit-learn
+  - pip
+  - pip:
+      - streamlit
